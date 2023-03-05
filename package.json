@@ -1,0 +1,27 @@
+{
+  "name": "where-the-wild-things-are-10",
+  "version": "1.0.0",
+  "description": "University of Utah\r Full-Stack Web Development Coding Bootcamp",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKelsenator/where-the-wild-things-are-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/TheKelsenator/where-the-wild-things-are-10/issues"
+  },
+  "homepage": "https://github.com/TheKelsenator/where-the-wild-things-are-10#readme"
+}
