@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 
+#f4f1de cream
+#e07a5f salmon
+#3d405b navy blue
+#81b29a green
+#f2cc8f yellow */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(61, 64, 91);
+  background-color: rgb(129, 178, 154);
+  width: 100%;
+}
