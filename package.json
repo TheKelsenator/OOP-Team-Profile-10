@@ -15,9 +15,10 @@
     "url": "git+https://github.com/TheKelsenator/where-the-wild-things-are-10.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kelsey O'Kelley",
   "license": "ISC",
   "devDependencies": {
+    "inquirer": "^8.2.5",
     "jest": "^24.9.0"
   },
   "bugs": {
