@@ -39,6 +39,8 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Screen Shot
 
-![alt_text](./)
+![alt_text](./images/Screenshot%20(33).png)
 
 ## Application Link
+
+https://drive.google.com/file/d/1kr0rFINsX9Nu1uhFnYOqWoN12GbSMyx4/view?usp=share_link
