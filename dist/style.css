@@ -25,6 +25,12 @@ header {
   border-bottom-left-radius: 15px;
 }
 
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 footer {
   display: flex;
   justify-content: center;
