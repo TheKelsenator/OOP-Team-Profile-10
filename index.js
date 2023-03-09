@@ -11,8 +11,7 @@ const inquirer = require('inquirer');
 const managerArray = [];
 const internArray = [];
 const engineerArray = [];
-
-// var body = $('.container-body')
+const writePath = path.resolve(__dirname, 'dist/index.html');
 
 const managerQuestions = [
   {
@@ -116,12 +115,8 @@ function createEmployee() {
     } else if (answers.addEmployee === 'Yes, an engineer.') {
       createEngineer();
     } else {
-      console.log(managerArray);
-      console.log(internArray);
-      console.log(engineerArray);
-      function writeToFile(data) {
-        return fs.writeFileSync(path.join(process.cwd(), generate), data);
-      }
+        fs.writeFileSync(writePath, generate(managerArray, internArray, engineerArray)),
+        'utf-8'
     }
   });
 }
@@ -153,51 +148,3 @@ function createEngineer() {
 }
 
 createManager();
-
-
-
-
-
-
-
-// From here down is code I pulled from previous projects that I thought 
-// might help me figure out how to create cards $('.body-container'), and
-// code to help initiate prompts. 
-
-
-
-// function writeToFile(fileName, data) {
-//   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-// }
-
-
-
-
-// // TODO: Create a function to initialize app
-
-// function init() {
-//   inquirer.prompt(questions).then((inquirerResponses) => {
-//     writeToFile('READ.md', generateMarkdown(inquirerResponses));
-// });
-// }
-
-// Function call to initialize app
-// init();
-
-
-
-
-// Possible way to display cards with employee information
-
-// Employee.forEach(function (this) {
-//   body.append(`<div class="container-fluid px-5">
-//   <div id=${thisHour.id} class="time-block row">
-//     <div class="hour col-2 col-md-1 py-3 ${colorCode}">${thisHour.hour} ${thisHour.ampm}</div>
-//     <textarea class="col-8 col-md-10 description ${colorCode}" rows="3"></textarea>
-//     <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-//     <i class="fas fa-save" aria-hidden="true"></i>
-//     </button>
-//   </div>
-//   </div>`)
-// })
-
