@@ -62,7 +62,7 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Links
 
-  * Application Link: https://drive.google.com/file/d/1kr0rFINsX9Nu1uhFnYOqWoN12GbSMyx4/view?usp=share_link
+  * Application Video Link: https://drive.google.com/file/d/1kr0rFINsX9Nu1uhFnYOqWoN12GbSMyx4/view?usp=share_link
   * LinkedIn Profile: https://www.linkedin.com/in/kelsey-o-kelley-23057a20b/
 
 ## Contact Me
