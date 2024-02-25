@@ -9,7 +9,16 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Description
 
- Build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+  This command-line application simplifies the process of generating a webpage displaying basic information about your team members, providing managers with quick access to their emails and GitHub profiles. Upon starting the application, users are prompted to input information about the team manager, including name, employee ID, email address, and office number. Subsequently, users have the option to add engineers or interns to the team, entering relevant details such as name, ID, email, GitHub username (for engineers), and school (for interns). Once the user decides to finish building the team, an HTML file is generated, presenting a nicely formatted team roster based on the provided information. Each team member's email address is clickable, opening the default email program with the TO field populated, while clicking on the GitHub username opens the corresponding GitHub profile in a new tab. With its user-friendly interface and efficient functionality, this team page generator streamlines the process of creating and accessing essential team information.
+
+## Table of Contents 
+
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [License](#license)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Contact Me](#contact-me)
 
 ## User Story
 
@@ -37,10 +46,25 @@ Full-Stack Web Development Coding Bootcamp
   * WHEN I decide to finish building my team
   * THEN I exit the application, and the HTML is generated
 
-## Screen Shot
+## License
 
-![alt_text](./images/Screenshot%20(33).png)
+  This project is licensed under the terms of the MIT license.
+  [License Information](https://choosealicense.com/licenses/mit)
+  <br/>
+  <br/>
+  <a href="https://choosealicense.com/licenses/mit">
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+  </a>
 
-## Application Link
+## Screenshot
 
-https://drive.google.com/file/d/1kr0rFINsX9Nu1uhFnYOqWoN12GbSMyx4/view?usp=share_link
+  ![alt_text](./images/Screenshot%20(33).png)
+
+## Links
+
+  * Application Link: https://drive.google.com/file/d/1kr0rFINsX9Nu1uhFnYOqWoN12GbSMyx4/view?usp=share_link
+  * LinkedIn Profile: https://www.linkedin.com/in/kelsey-o-kelley-23057a20b/
+
+## Contact Me
+
+  Feel free to reach out to me via email at km.okelley89@gmail.com or through my LinkedIn.
